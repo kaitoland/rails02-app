@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @request.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @request.price %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @request.picture %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @request.place %>
+</p>
+
+<p>
+  <strong>Stock:</strong>
+  <%= @request.stock %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @request.description %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @request.created_at %>
+</p>
+
+<p>
+  <strong>Updated at:</strong>
+  <%= @request.updated_at %>
+</p>
+
+<%= link_to 'Edit', edit_request_path(@request) %> |
+<%= link_to 'Back', requests_path %>

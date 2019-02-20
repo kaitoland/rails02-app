@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @material.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @material.price %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @material.picture %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @material.place %>
+</p>
+
+<p>
+  <strong>Stock:</strong>
+  <%= @material.stock %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @material.description %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @material.created_at %>
+</p>
+
+<p>
+  <strong>Updated at:</strong>
+  <%= @material.updated_at %>
+</p>
+
+<%= link_to 'Edit', edit_material_path(@material) %> |
+<%= link_to 'Back', materials_path %>
