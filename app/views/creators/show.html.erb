@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @creator.name %>
+</p>
+
+<p>
+  <strong>Birthday:</strong>
+  <%= @creator.birthday %>
+</p>
+
+<p>
+  <strong>Registered at:</strong>
+  <%= @creator.registered_at %>
+</p>
+
+<p>
+  <strong>Prefecture:</strong>
+  <%= @creator.prefecture %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @creator.city %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @creator.address %>
+</p>
+
+<%= link_to 'Edit', edit_creator_path(@creator) %> |
+<%= link_to 'Back', creators_path %>
